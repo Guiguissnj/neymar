@@ -88,3 +88,7 @@ h3{
 .div style{
     text-align: center;
 }
+
+.container h1 img {
+    margin-left: 10px;
+}
