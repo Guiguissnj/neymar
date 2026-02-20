@@ -1,94 +1,69 @@
-body {
-    background-color: rgb(255, 255, 255);
-    font-family: "New Amsterdam", sans-serif;
-}
-
-
-.video-container {
-    text-align: center
-}
-header{
-    background-color: rgb(37, 18, 122);
-    border-bottom: solid 4px rgb(37, 18, 122);
-    padding: 14px;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-}
-
-h1{
-    font-size: 50px;
-}
-
-.container{
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #003366;
+    color: #fff;
     text-align: center;
-}
-
-.container{
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
-
-.minha-imagem {
-    width: 550px;
-    height: 350px;
-}
-
-.container {
+    padding: 1rem;
+  }
+  
+  .book img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .book h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #003366;
+  }
+  
+  .book p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: #fff;
     text-align: center;
-}
-
-h1{
-    font-size: 40px
-}
-
-h2{
-    background-color: rgb(37, 18, 122);
-    border-bottom: solid 4px rgb(37, 18, 122);
-    padding: 20px;
-    font-size: 35px;
-    color: aliceblue;
-}
-
-.minha-imagem {
-    width: 550px;
-    height: 350px;
-}
-
-.container{
-    text-align: center;
-}
-
-
-h2{
-    background-color: rgb(37, 18, 122);
-    border-bottom: solid 4px rgb(37, 18, 122);
-    padding: 14px;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-.minha-imagem {
-    width: 530px;
-    height: 350px;
-}
-
-h2{
-    background-color: rgb(37, 18, 122);
-    font-family: "New Amsterdam", sans-serif;
-}
-
-.minha-imagem {
-    width: 630px;
-    height: 350px;
-}
-
-h3{
-    height: 200 px;
-}
-
-.div style{
-    text-align: center;
-}
-
-.container h1 img {
-    margin-left: 10px;
-}
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
